@@ -9,6 +9,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const music = document.getElementById("background-music");
+    const startButton = document.getElementById("start-button");
+
+    startButton.addEventListener("click", () => {
+        music.volume = 1.0;
+        music.play();
+    });
+});
+
 
 let timeLeft = 3600;
 const timerElement = document.getElementById("timer");
