@@ -9,16 +9,27 @@ body {
 
 @media screen and (max-width: 600px) {
 
-    .body{
+    .left-chat{
+        font-size: medium;
+    }
+
+    .right-chat{
         font-size: medium;
     }
     
+    .clue{
+        font-size: medium;
+    }
     .options {
       flex-direction: column;
     }
 
     .clue{
         justify-content: center;
+        font-size: medium;
+    }
+    .notes{
+        font-size: medium;
     }
   }
 
