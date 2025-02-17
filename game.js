@@ -405,7 +405,7 @@ function chooseResponse(choice) {
     
             }else if (choice === "Pick the lock"){
                 setTimeout(() => {
-                    updateNotes("The gruard ambushes yoyr plan");
+                    updateNotes("The gruard ambushes your plan");
                 }, 1500);
     
                 addMessage("kidnapper", "I have got you...");
